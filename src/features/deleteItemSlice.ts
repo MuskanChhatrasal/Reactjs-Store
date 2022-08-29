@@ -39,7 +39,7 @@ export const categoriesSlice = createSlice({
     });
     builder.addCase(deleteItem.rejected, (state: DeleteItemState) => {
       state.loading = false;
-      state.error = "Silinemedi";
+      state.error = "Error";
     });
   },
 });
