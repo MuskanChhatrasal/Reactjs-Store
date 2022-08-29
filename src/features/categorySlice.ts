@@ -48,7 +48,7 @@ export const categoriesSlice = createSlice({
       (state: CategoriesState, action: PayloadAction<[]>) => {
         state.loading = false;
         state.categories = [];
-        state.error = "Yüklenemedi";
+        state.error = "error";
       }
     );
   },
